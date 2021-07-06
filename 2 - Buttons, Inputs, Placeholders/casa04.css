@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1F1C44;
+    color: #000000;
+    font-family: 'Neuton', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    padding: 60px 90px 50px 90px;
+    width: 517px;
+    height: 765px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.24px;
+    margin-bottom: 54px;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337px;
+    height: 69px;
+    border-radius: 5px;
+    color:#FFFFFF;  
+    font-weight: 400;    
+    margin-bottom: 55px;
+}
+
+.btn-google{
+    background-color:#5B86E6;  
+    font-size: 18px;
+    line-height: 23px;  
+}
+
+.btn-google:hover{
+   box-shadow: 0px 4px 13px 0px #1345B24D;
+}
+
+.btn-google img{
+    background-color:#FFFFFF;
+    width: 55px;  
+    height: 55px;
+    border-radius: 4px;
+    padding: 12px 12px 11px 11px;
+    margin-left: 5px;
+}
+
+.btn-login{
+    background-color:#E65B7C;  
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.btn-login:hover{
+    box-shadow: 0px 4px 15px 0px #CC1C454D;
+}
+
+p{
+    color: #949495;
+    font-weight: 400;    
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 39px;
+}
+
+label{
+    width: 100%;
+    color:#000000;
+    font-weight: 400;    
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+
+input{
+    all: unset;
+    box-sizing: border-box;
+    padding-left: 22px;
+    width: 337px;
+    height: 69px;
+    font-family: 'Mulish', sans-serif;
+    border: solid 1px #D9DCED;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    color: #000000;
+    border: solid 1px #000000;
+}
+
+::placeholder{
+    color: #949495;    
+    font-weight: 400;    
+    font-size: 16px;
+    line-height: 20px;
+}
+
+span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #5B86E6;
+}
