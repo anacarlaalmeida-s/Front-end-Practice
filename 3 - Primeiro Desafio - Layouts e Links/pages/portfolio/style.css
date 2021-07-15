@@ -1,0 +1,37 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+    height: 500px; 
+    margin-left: 212px;
+    margin-right: 213px;
+    margin-bottom: 80px;
+}
+
+.section img{
+    width: 540px;
+    height: 500px;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;     
+}
+
+.apresentacao img {
+    width:350px;
+    height: 1px; 
+    background: #33323D;
+    opacity: 0.15;
+}
+
+.btn{
+    width: 175px;
+    height: 48px;
+    padding: 17px 35px;
+}
+
+.contact-section{
+    margin-left: 212px;
+    margin-right: 213px;
+}

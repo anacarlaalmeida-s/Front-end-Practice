@@ -1,0 +1,105 @@
+#home{
+    color: #5FB4A2;
+}
+
+#contato{
+    color: #5FB4A2;
+}
+
+#portfolio{
+    color: #5FB4A2;
+}
+
+.nav-footer a{
+    color: #FFFFFF;
+}
+
+.h1-font{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+}
+
+.h2-font{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;    
+}
+
+.h3-font{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px; 
+}
+
+.h4-font{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px; 
+}
+
+.p-font{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;    
+    opacity: 0.8;
+}
+
+.span-font{
+    color: #5FB4A2;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;    
+}
+
+.span-nav-font{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;  
+    opacity: 0.5;
+}
+
+.label-font{
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;    
+    opacity: 0.8; 
+}
+
+li{
+    list-style: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; 
+    letter-spacing: 2px;  
+    margin-left: 43px; 
+}
+
+a{
+    color: #33323D;
+    text-decoration: none;    
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;    
+    letter-spacing: 2px;    
+}
+
+
+
+
+

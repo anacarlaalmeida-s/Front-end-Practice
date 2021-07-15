@@ -1,0 +1,92 @@
+.hero-section{
+    display: flex;
+    align-items:flex-end;
+    background-image: url("/Desafio Front/desafio-frontend-modulo1-integral/assets/home/image-homepage-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 600px; 
+    margin-left: 165px ;
+    margin-right: 165px ;
+    margin-bottom: 149px ;             
+}
+
+.titulo-hero{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+    background-color: #FAFAFA;
+    width: 445px;
+    height: 357px;
+}
+
+.titulo-hero h1{
+    width: 390px;
+    height: 200px;
+    margin-top: 56px;
+    margin-left: 27px;
+}
+
+.titulo-hero a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #203A4C;
+    width: 200px;
+    height: 48px;
+    padding-top: 17px;
+    padding-bottom: 17px; 
+    padding-right: 27px;   
+}
+.titulo-hero img{   
+    background: rgba(0,0,0,0.1);
+    width: 48px;
+    height: 48px;
+    padding: 18px 16px 18px 16px;    
+}
+
+.container-apresentacao {
+    display: flex;
+    justify-content: space-between;
+    height: 601px;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 150px;
+} 
+
+.container-apresentacao img{
+    width:540px;    
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+}
+
+.apresentacao img{
+    width: 430px;
+    height: 1px; 
+    background: #33323D;
+    opacity: 0.15;   
+}
+
+.apresentacao a{
+    width: 204px;
+    height: 48px;        
+    padding: 17px 26px;
+    margin-left: 113px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
