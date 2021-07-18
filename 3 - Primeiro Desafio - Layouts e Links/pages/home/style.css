@@ -3,11 +3,12 @@
     align-items:flex-end;
     background-image: url("/Desafio Front/desafio-frontend-modulo1-integral/assets/home/image-homepage-hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
     height: 600px; 
     margin-left: 165px ;
     margin-right: 165px ;
-    margin-bottom: 149px ;             
+    margin-bottom: 149px ;  
+               
 }
 
 .titulo-hero{

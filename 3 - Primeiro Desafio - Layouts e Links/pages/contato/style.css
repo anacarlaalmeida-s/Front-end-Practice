@@ -65,13 +65,22 @@
 input{
     all: unset;
     box-sizing: border-box; 
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px; 
     color: rgba(8, 8, 8);
     height: 48px;    
     background-color: rgba(51, 50, 61, 0.1);
+    padding-left: 15px;    
 }
 
 .input-msg{
-    height: 96px;    
+    height: 96px; 
+}
+
+.text-message{
+
 }
 
 .btn{

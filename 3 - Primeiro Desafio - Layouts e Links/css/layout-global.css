@@ -9,7 +9,7 @@ body{
     background-color: #F2F2F2;
     color: #33323D;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .header{

@@ -79,7 +79,7 @@
     opacity: 0.8; 
 }
 
-li{
+li {
     list-style: none;
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -98,7 +98,6 @@ a{
     line-height: 14px;    
     letter-spacing: 2px;    
 }
-
 
 
 
