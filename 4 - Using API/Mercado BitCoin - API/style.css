@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url("https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: #FAFAFA;
+}
+
+form{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items: center; 
+    
+    background-color: #bbd8191e;
+
+    border-radius: 5px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+}
+
+select{
+    all: unset;
+    box-sizing: border-box;
+    
+    color: black;
+    background-color: whitesmoke;
+    border: rgba(49, 49, 45, 0.486) solid 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.432);
+    padding: 3px;
+}
+
+.maior_valor, .quantidade, .maior_oferta{
+    font-weight: 600;
+    font-style: italic;
+
+    color: rgb(184, 179, 184);
+}
+
+.escondido{
+    display: none;
+}
+
+
+

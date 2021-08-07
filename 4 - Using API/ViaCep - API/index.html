@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Classe-01</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text">
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <label for="cep">CEP</label>
+        <input id="cep" type="number">
+        <label for=cidade">Cidade</label>
+        <input id="cidade" type="text">
+        <label for="rua">Rua</label>
+        <input id="rua" type="text">
+        <label for="numeroEnd">Nº</label>
+        <input id="numeroEnd" type="number">
+    </form>
+
+    <div class="modal_tamanhoCEP escondido">
+        <h3> Verifique o CEP digitado, ele precisa ter 08 dígitos</h3>
+        <button class="btnModal1" type="button">Fechar</button>
+    </div>
+
+    <div class="modalCepInvalido escondido ">
+        <h3> CEP não localizado.</h3>
+        <button class="btnModal2" type="button">Fechar</button>
+    </div>
+
+</body>
+</html>
