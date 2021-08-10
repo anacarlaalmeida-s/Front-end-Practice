@@ -22,11 +22,11 @@ inputCriptomoeda.addEventListener("change", function () {
 
         promiseRetorno.then(function (body) {
             maxValor.classList.remove("escondido");
-            maxValor.textContent = Number(body.ticker.high).toFixed(2);
+            maxValor.textContent = Number(body.ticker.high).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
             quantidade.classList.remove("escondido");
-            quantidade.textContent = Number(body.ticker.vol).toFixed(2);
+            quantidade.textContent = Number(body.ticker.vol).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
             maxOferta.classList.remove("escondido");
-            maxOferta.textContent = Number(body.ticker.buy).toFixed(2);
+            maxOferta.textContent = Number(body.ticker.buy).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
         });
     });
 });
