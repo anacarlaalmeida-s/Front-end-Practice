@@ -24,7 +24,7 @@ inputCriptomoeda.addEventListener("change", function () {
             maxValor.classList.remove("escondido");
             maxValor.textContent = Number(body.ticker.high).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
             quantidade.classList.remove("escondido");
-            quantidade.textContent = Number(body.ticker.vol).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+            quantidade.textContent = Number(body.ticker.vol).toFixed();
             maxOferta.classList.remove("escondido");
             maxOferta.textContent = Number(body.ticker.buy).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
         });
