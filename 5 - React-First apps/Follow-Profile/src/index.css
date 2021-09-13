@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #456392;
+
+    font-family: 'Mulish', sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 302px;
+    height:410px;
+
+    border-radius: 20px;
+    
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 24px 0px #FFFFFF40;
+
+    padding-top: 32px;
+    padding-bottom: 39px;
+
+    margin-bottom: 18px;
+}
+
+img{
+    width: 122.92px;
+    height: 122.92px;
+
+    border-radius: 50%;
+    border:#ECF3FC 5px solid;
+
+    margin-bottom: 30px;
+}
+
+.nomePerfil{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #131E30;
+
+    margin-bottom: 8px;
+}
+
+.enderecoPerfil{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #131E30;
+
+    margin-bottom: 69px;
+}
+
+.seguidores, .seguindo{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+button{
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 302px;
+    height: 62px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #EFF5FF;
+    background-color: #459275;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.seguiu{
+    background-color: #97CEB9;
+}

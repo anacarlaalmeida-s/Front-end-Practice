@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  background-color: #f0f0f0;
+  color: #131e30;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Mulish", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 302px;
+  height: 428px;
+
+  background-color: #ffffff;
+
+  border-radius: 12px;
+}
+
+.fotoLanche {
+  height: 211px;
+
+  margin-bottom: 8px;
+}
+
+img {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.lanche-descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 219px;
+  margin-bottom: 59px;
+}
+
+.nomeLanche {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.descricao {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.selecao-quantidade {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  width: 253px;
+  height: 47px;
+
+  margin-bottom: 25px;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 38.54px;
+  height: 46px;
+
+  border-radius: 8px;
+
+  background-color: #459275;
+  color: #eff5ff;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+
+  cursor: pointer;
+}
+
+.quantidade {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+}
