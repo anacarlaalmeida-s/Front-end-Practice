@@ -11,5 +11,5 @@ In this repository I will put some exercises in ascending learning order to reco
 
 ## Bem-vindo(a) à minha timeline de estudos Front-end!
 
-Olá, sou iniciante no mundo da programação, iniciei meus estudos do zero em junho de 2021.   
+Olá, iniciei meus estudos do zero em junho de 2021.   
 Nesse repositório eu colocarei alguns exercícios em ordem crescente de aprendizado para registrar minha evolução no Front-end.
