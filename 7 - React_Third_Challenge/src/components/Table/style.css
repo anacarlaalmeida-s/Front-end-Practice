@@ -1,0 +1,145 @@
+.table {
+  display: table;
+  max-width: 900px;
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.table-head {
+  display: table-row;
+  width: 964px;
+  height: 58px;
+
+  font-weight: bold;
+
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.column-title {
+  float: left;
+  display: table-column;
+  padding-top: 21px;
+  width: 165px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.order-by {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.table-line {
+  display: table-row;
+  width: 964px;
+  text-align: center;
+}
+
+.line-items {
+  float: left;
+  display: table-column;
+  padding-top: 21px;
+  width: 150px;
+}
+
+.value-credit {
+  font-weight: bold;
+  color: #645ffb;
+}
+
+.value-debit {
+  font-weight: bold;
+  color: #fa8c10;
+}
+
+.edit-icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.line-table {
+  margin-top: 22px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-confirm-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 66px;
+  padding: 5px;
+
+  position: absolute;
+  right: 380px;
+  z-index: 2;
+  padding-top: 5px;
+
+  float: left;
+  background-color: #e4f2fd;
+  border-top: 10px solid #e4f2fd;
+  border-left: 10px solid #ffffff;
+}
+
+.container-confirm-delete span {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  color: #000000;
+
+  padding-top: 5px;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 7px;
+}
+
+.btn-actions-confirm-delete {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 37px;
+  height: 15px;
+  border-radius: 4px;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 4px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
+.sim {
+  background: #3a9ff1;
+  cursor: pointer;
+}
+
+.nao {
+  background: #ff576b;
+  cursor: pointer;
+}

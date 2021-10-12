@@ -1,0 +1,142 @@
+.add-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: fixed;
+
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Rubik", sans-serif;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  min-height: 580px;
+
+  padding: 21px 42px 24px 40px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.title-modal {
+  display: flex;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.span-credit-button,
+.span-debit-button {
+  all: unset;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.credit-button {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.debit-button {
+  width: 50%;
+  height: 40px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.inativo {
+  background: #b9b9b9;
+}
+
+.cred-ativo {
+  background: linear-gradient(91.26deg, #05ede3 0%, #3a9ff1 97.77%);
+}
+
+.deb-ativo {
+  background: linear-gradient(91.66deg, #fa8c10 0%, #ff576b 90.32%);
+}
+
+.inputs-addModal label {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+
+  color: #484848;
+}
+
+.inputs-addModal input {
+  all: unset;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: 50px;
+
+  padding: 10px;
+
+  background: #ffffff;
+  border: 1px solid #555555;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  color: #000000;
+}
+
+.btn-insert {
+  all: unset;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  width: 200px;
+  height: 42px;
+
+  margin-top: 20px;
+  padding: 10px;
+
+  background: #645ffb;
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
