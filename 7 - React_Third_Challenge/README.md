@@ -1,5 +1,7 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
+Link com vídeo da aplicação finalizada: https://www.linkedin.com/posts/anacarlasalmeida_react-css-html-activity-6853564556258631680-rmjO
+
 # Desafio | Front-end - Módulo 3
 
 Após alguns meses trabalhando em projetos mais simples, você foi designado pelo seu Tech Lead para desenvolver uma aplicação que será apresentada a um cliente muito importante.
