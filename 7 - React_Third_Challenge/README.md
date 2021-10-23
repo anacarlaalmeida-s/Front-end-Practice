@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-Link com vídeo da aplicação finalizada: https://www.linkedin.com/posts/anacarlasalmeida_react-css-html-activity-6853564556258631680-rmjO
+Link com vídeo da aplicação finalizada: https://www.linkedin.com/posts/dev-anacarlaalmeida_react-css-html-activity-6853564556258631680-gSod
 
 # Desafio | Front-end - Módulo 3
 
