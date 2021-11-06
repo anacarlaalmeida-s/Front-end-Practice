@@ -1,0 +1,95 @@
+.EditModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(16, 15, 15, 0.56);
+}
+
+.container-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  width: 476px;
+  height: 563px;
+  padding: 50px;
+
+  background-color: #fffdfd;
+  border-radius: 8px;
+  color: #000;
+}
+
+.close-editModal,
+img {
+  width: 16px;
+  height: 16px;
+
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+  cursor: pointer;
+}
+
+.h3-editModal {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.form-edit{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.input-edit {
+  all: unset;
+  box-sizing: border-box;
+  width: 364px;
+  height: 50px;
+
+  padding: 16px;
+  background-color: #fdfafa;
+  border: 1px solid #e8e8e8;
+}
+
+.btn-editModal {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 364px;
+  height: 50px;
+
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff7f7;
+  cursor: pointer;
+}
+
+.save {
+  background: #04c45c;
+}
+
+.cancel-edit {
+  background: rgba(251, 6, 21, 0.65);
+}
